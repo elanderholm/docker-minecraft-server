@@ -3,7 +3,7 @@ version: '3'
 ##tst
 services:
   minecraft:
-    image: elanderholm/docker-minecraft-server
+    build: .
     ports:
       - "25565:25565"
     volumes:
